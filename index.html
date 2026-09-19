@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#3ab412">
+  <title>WiseCal — Assistente de contagem calórica com IA</title>
+  <meta name="description" content="Conheça a WiseCal: uma foto da refeição para estimar calorias e macronutrientes com IA e acompanhar seu saldo calórico. Em breve para iOS e Android.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="WiseCal — Assistente de contagem calórica com IA">
+  <meta property="og:description" content="Mais clareza sobre sua alimentação. Conheça o WiseCal, em breve para iOS e Android.">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header container">
+    <a class="wordmark" href="./" aria-label="WiseCal, início">Wise<span>Cal</span></a>
+    <span class="availability"><span class="status-dot" aria-hidden="true"></span>Em breve nas lojas</span>
+  </header>
+
+  <main id="conteudo" class="container">
+    <section class="hero" aria-labelledby="titulo">
+      <div class="hero-copy">
+        <h1 id="titulo">WiseCal, um assistente de contagem calórica com IA</h1>
+        <p class="intro">Uma foto da refeição basta: a IA identifica os alimentos, estima calorias e macronutrientes, e calcula seu saldo calórico líquido em tempo real.</p>
+        <div class="store-buttons" aria-describedby="download-status">
+          <!-- Quando o app estiver disponível, substitua os botões por links para as lojas. Veja README.md. -->
+          <button class="store-button" type="button" disabled>Baixar na App Store</button>
+          <button class="store-button" type="button" disabled>Baixar no Google Play</button>
+        </div>
+        <p class="download-status" id="download-status">Links de download em breve.</p>
+      </div>
+      <figure class="preview">
+        <div class="calorie-card">
+          <div>
+            <span class="calorie-value">1.424</span>
+            <span class="calorie-label">Calorias restantes</span>
+          </div>
+          <div class="calorie-ring" role="img" aria-label="Exemplo: 776 de 2.200 quilocalorias consumidas">
+            <svg class="ring" viewBox="0 0 116 116" aria-hidden="true">
+              <circle class="ring-track" cx="58" cy="58" r="51"/>
+              <circle class="ring-progress" cx="58" cy="58" r="51" pathLength="100"/>
+            </svg>
+            <span class="flame-background"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c1 5-4 5-4 9a4 4 0 0 0 8 0c0-1-1-3-2-4 4 2 6 5 6 8a8 8 0 0 1-16 0c0-5 4-7 8-13Z"/></svg></span>
+          </div>
+        </div>
+        <figcaption>Uma prévia do seu dia com WiseCal. Dados ilustrativos.</figcaption>
+      </figure>
+    </section>
+
+    <section class="about" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="section-heading">
+        <p class="eyebrow">Sobre a empresa</p>
+        <h2 id="sobre-titulo">Missão e produto</h2>
+      </div>
+      <div class="features">
+        <article class="feature-card">
+          <span class="icon-background"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3ZM20 2v4m-2-2h4"/></svg></span>
+          <h3>Produto único</h3>
+          <p>Somos uma empresa de desenvolvimento de software dedicada a um único produto: o aplicativo WiseCal, para iOS e Android.</p>
+        </article>
+        <article class="feature-card">
+          <span class="icon-background"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8V5a1 1 0 0 1 1-1h3m8 0h3a1 1 0 0 1 1 1v3m0 8v3a1 1 0 0 1-1 1h-3m-8 0H5a1 1 0 0 1-1-1v-3M4 12h16"/></svg></span>
+          <h3>Visão computacional</h3>
+          <p>O app usa IA para identificar alimentos a partir de uma foto e estimar calorias e macronutrientes automaticamente, sem busca manual.</p>
+        </article>
+        <article class="feature-card">
+          <span class="icon-background"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v17m-5 1h10M4 7l8-3 8 3M4 7l-3 7h6L4 7Zm16 0-3 7h6l-3-7ZM1 14a3 3 0 0 0 6 0m10 0a3 3 0 0 0 6 0"/></svg></span>
+          <h3>Saldo líquido</h3>
+          <p>Treinos registrados são subtraídos do total calórico. O app exibe o saldo líquido em tempo real: déficit, manutenção ou superávit.</p>
+        </article>
+      </div>
+      <p class="mission">O princípio de produto da WiseCal é dar visibilidade clara do balanço calórico para decisões informadas, sem impor dietas restritivas ou regras rígidas. O foco é reduzir o atrito no registro alimentar e apoiar metas de perda de gordura, ganho de massa ou manutenção.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 WiseCal.</p>
+      <a class="wordmark footer-wordmark" href="./" aria-label="WiseCal, início">Wise<span>Cal</span></a>
+    </div>
+  </footer>
+</body>
+</html>
